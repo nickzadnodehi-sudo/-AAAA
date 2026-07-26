@@ -1,0 +1,6 @@
+{
+  "name": "سامانه صدور نامه سربرگ‌دار",
+  "description": "سامانه آنلاین صدور و تنظیم نامه‌های اداری روی سربرگ رسمی شرکت آریا کاوش پی هامون با خروجی PDF و استاندارد فونت وزیرمتن",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
