@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }}
               className="flex items-center group cursor-pointer focus:outline-none py-1"
             >
-              <img src="/logo.png" alt="آریا کاوش پی هامون" className="h-11 md:h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
+              <img src="/logo-transparent.png" alt="آریا کاوش پی هامون" className="h-12 md:h-16 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
             </button>
           </div>
 

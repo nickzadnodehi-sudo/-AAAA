@@ -22,9 +22,7 @@ export const PublicFooter: React.FC<PublicFooterProps> = ({
           {/* Col 1: About & Logo */}
           <div className="space-y-6">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-none bg-white flex items-center justify-center shadow-lg border border-white/10 overflow-hidden">
-                <img src="/logo.png" alt="AKPH Logo" className="w-full h-full object-contain p-1.5" />
-              </div>
+              <img src="/logo-transparent.png" alt="AKPH Logo" className="h-12 w-auto object-contain" />
               <div>
                 <h3 className="font-black text-white text-lg tracking-tight">آریا کاوش پی هامون</h3>
                 <p className="text-[10px] text-akph-yellow font-mono tracking-widest uppercase mt-1">Arya Kavosh Pey Hamoon</p>

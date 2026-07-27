@@ -22,9 +22,7 @@ export const PortalHeader: React.FC<PortalHeaderProps> = ({
       <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
         {/* Left / Brand Info */}
         <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-none bg-white flex items-center justify-center shrink-0 shadow-md border border-akph-yellow overflow-hidden">
-            <img src="/logo.png" alt="AKPH Logo" className="w-full h-full object-contain p-0.5" />
-          </div>
+          <img src="/logo-transparent.png" alt="AKPH Logo" className="h-9 w-auto object-contain" />
           <div className="text-right">
             <div className="flex items-center gap-2">
               <span className="font-extrabold text-sm text-white">اتوماسیون پورتال اعضا</span>
