@@ -52,31 +52,16 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header className="bg-[#0a0a0a] text-white sticky top-0 z-50 border-b border-white/10 shadow-[0_10px_30px_rgba(0,0,0,0.5)] transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 md:h-24">
-          {/* Logo & Brand Name */}
-          <div className="flex items-center gap-4">
+          {/* Logo */}
+          <div className="flex items-center">
             <button
               onClick={() => {
                 if (isPortalActive) onExitPortal();
                 onSelectPublicTab('home');
               }}
-              className="flex items-center gap-4 group text-right cursor-pointer focus:outline-none"
+              className="flex items-center group cursor-pointer focus:outline-none py-1"
             >
-              <div className="w-12 h-12 md:w-14 md:h-14 rounded-none bg-white flex items-center justify-center shadow-lg transition-transform duration-500 group-hover:scale-105 shrink-0 border border-white/10 overflow-hidden">
-                <img src="/logo.png" alt="AKPH Logo" className="w-full h-full object-contain p-1.5" />
-              </div>
-              <div className="min-w-0 flex flex-col justify-center">
-                <div className="flex items-center gap-3 mb-1">
-                  <span className="font-black text-base md:text-xl text-white tracking-tight leading-none group-hover:text-akph-yellow transition-colors duration-300">
-                    آریا کاوش پی هامون
-                  </span>
-                  <span className="text-[10px] px-2 py-0.5 bg-white/10 text-akph-yellow tracking-widest uppercase font-bold hidden sm:inline-block rounded-none border border-akph-yellow/30">
-                    AKPH
-                  </span>
-                </div>
-                <p className="text-[11px] md:text-xs text-gray-400 font-light truncate hidden xs:block">
-                  مشاوره، طراحی، کنترل کیفیت و اجرای پروژه‌های عمرانی
-                </p>
-              </div>
+              <img src="/logo.png" alt="آریا کاوش پی هامون" className="h-11 md:h-14 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
             </button>
           </div>
 
